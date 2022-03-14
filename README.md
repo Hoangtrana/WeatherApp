@@ -2,4 +2,4 @@
 
 ## A simple weather app
 
-![Main screen](assets/App.PNG)
+![Main screen](src/assets/App.PNG)
