@@ -11,7 +11,7 @@ function HomePage() {
   //console.log(fethWeather(data[0].Key)
   const fetchData = () => {
     fetch(
-      `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=rapeMIyukWjJHSROCIILOC8VnDifrh4i&&q=${city}`
+      `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=5LBV1Rl7Ovd3tUmuEqa1BcWl4egNzfZT&&q=${city}`
     )
       .then((response) => response.json())
 
@@ -30,7 +30,7 @@ function HomePage() {
 
   const fethWeather = (id) => {
     fetch(
-      `http://dataservice.accuweather.com/currentconditions/v1/${id}?apikey=rapeMIyukWjJHSROCIILOC8VnDifrh4i`
+      `http://dataservice.accuweather.com/currentconditions/v1/${id}?apikey=5LBV1Rl7Ovd3tUmuEqa1BcWl4egNzfZT`
     )
       .then((response) => response.json())
       .then((data) => {
